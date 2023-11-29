@@ -6,6 +6,7 @@ body {
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
   }
   
 .topnav {
@@ -13,11 +14,25 @@ body {
     background-color: #333;
 }
   
-  .topnav a {
+  .topnav a{
     float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
+    align-items: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 10px 0 10px 10px;
+  }
+
+  .topnav img {
+    width: 50px;
+    float: left;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    align-items: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -31,6 +46,7 @@ body {
   .topnav a.active {
     background-color: rgb(239, 48, 48);
     color: white;
+    border-radius: 5pc;
   }
   
   .topnav .icon {
