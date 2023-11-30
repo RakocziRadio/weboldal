@@ -40,6 +40,7 @@ body {
   
   .topnav a:hover {
     background-color: #ddd;
+    border-radius: 5pc;
     color: black;
   }
   
@@ -74,3 +75,29 @@ body {
       text-align: left;
     }
   }
+
+.koszontes {
+    display: block;
+    background-color: aliceblue;
+    padding: 10px;
+    width: 50%;
+    margin: 20px auto auto auto;
+    border-radius: 15px;
+}
+
+table, th, td {
+    border: black solid 1px;
+    background-color: white;
+  }
+
+table {
+    margin: 15px auto 0 auto;
+    width: 75%;
+    height: 300px;
+    font-size: 30px;
+}
+
+.sicon {
+    width: 60px;
+    height: 60px;
+}
