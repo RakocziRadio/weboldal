@@ -85,6 +85,15 @@ body {
     border-radius: 15px;
 }
 
+section {
+  display: block;
+  background-color: aliceblue;
+  padding: 10px;
+  width: 50%;
+  margin: 20px auto auto auto;
+  border-radius: 15px;
+}
+
 table, th, td {
     border: black solid 1px;
     background-color: white;
@@ -100,4 +109,5 @@ table {
 .sicon {
     width: 60px;
     height: 60px;
+    border-radius: 15px;
 }
